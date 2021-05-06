@@ -1,0 +1,22 @@
+{
+  "name": "gala-quarter",
+  "version": "1.0.0",
+  "description": "Gala web app project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-dev": "firebase deploy --project Gala-dev",
+    "deploy-prod": "firebase deploy --project Gala-prod"
+  },
+  "author": "Joseph Adeyanju",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "firebase": "^8.5.0",
+    "firebase-tools": "^9.10.1",
+    "nodemon": "^2.0.7"
+  }
+}
