@@ -1,22 +1,28 @@
 {
   "name": "gala-quarter",
   "version": "1.0.0",
-  "description": "Gala web app project",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "express": "^4.17.1",
+    "firebase": "^8.5.0",
+    "firebase-admin": "^9.7.0",
+    "firebase-tools": "^9.10.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy-dev": "firebase deploy --project Gala-dev",
-    "deploy-prod": "firebase deploy --project Gala-prod"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeCodes20/Gallery.git"
   },
   "author": "Joseph Adeyanju",
   "license": "MIT",
-  "dependencies": {
-    "concurrently": "^6.0.2",
-    "express": "^4.17.1"
+  "bugs": {
+    "url": "https://github.com/JoeCodes20/Gallery/issues"
   },
-  "devDependencies": {
-    "firebase": "^8.5.0",
-    "firebase-tools": "^9.10.1",
-    "nodemon": "^2.0.7"
-  }
+  "homepage": "https://github.com/JoeCodes20/Gallery#readme"
 }
