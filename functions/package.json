@@ -6,12 +6,10 @@
     "shell": "firebase functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log",
-    "deploy-dev": "firebase deploy --project Gala-dev",
-    "deploy-prod": "firebase deploy --project Gala-prod"
+    "logs": "firebase functions:log"
   },
   "engines": {
-    "node": "14"
+    "node": "12"
   },
   "main": "index.js",
   "dependencies": {
